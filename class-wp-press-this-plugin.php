@@ -13,6 +13,10 @@
  * @since 1.0.0
  */
 class WP_Press_This_Plugin {
+	// Used to trigger the bookmarklet update notice.
+	const VERSION = 8;
+	public $version = 8;
+
 	private $images = array();
 
 	private $embeds = array();
